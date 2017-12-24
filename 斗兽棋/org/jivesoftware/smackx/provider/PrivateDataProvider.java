@@ -1,0 +1,16 @@
+package org.jivesoftware.smackx.provider;
+
+import org.jivesoftware.smackx.packet.PrivateData;
+import org.xmlpull.v1.XmlPullParser;
+
+public abstract interface PrivateDataProvider
+{
+  public abstract PrivateData parsePrivateData(XmlPullParser paramXmlPullParser)
+    throws Exception;
+}
+
+
+/* Location:           C:\Users\Administrator\Documents\ds\反编译\AndroidKiller_v1.3.1\projects\Jungledsq_ppc\ProjectSrc\smali\
+ * Qualified Name:     org.jivesoftware.smackx.provider.PrivateDataProvider
+ * JD-Core Version:    0.7.0.1
+ */
